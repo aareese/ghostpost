@@ -66,6 +66,7 @@ h2 {
     font-size: 18px;
     font-weight: 400;
     margin: 5px 0;
+    color: #F2F2F2;
 }
 
 p {
@@ -142,7 +143,7 @@ nav {
 
 h3.list-title {
     margin: 0 0 10px 20px;
-    color: #60F7FC;
+    color: #f2f2f2;
     text-transform: uppercase;
 }
 
@@ -165,7 +166,7 @@ h3.list-title {
     padding-top: 5px;
 }
 
-/* event page */
+/* posts */
 
 ul.toggle {
     margin: 0 20px;
@@ -194,6 +195,47 @@ ul.social li {
     float: left;
     width: 60px;
     text-align: center;
+}
+
+img.avatar-small {
+    width: 24px;
+    margin-top: 9px;
+    margin-right: 3px;
+}
+
+/* chat entry */
+
+.chat-entry {
+    position: fixed;
+    z-index: 105;
+    bottom: 0;
+    background: #151515;
+    width: 90%;
+    padding: 10px 5%;
+}
+
+.chat-entry input {
+    width: 96%;
+    padding: 0 2%;
+    border-radius: 2em;
+    border: 0;
+    height: 23px;
+    background: #BABABA;
+    /* -webkit-appearance: textfield; */
+}
+
+.chat-entry input:focus {
+    outline: none;
+}
+
+.chat-entry button {
+    width: 20%;
+    border-radius: 0.5em;
+    border: 0;
+    background: #333333;
+    height: 25px;
+    padding: 5px;
+    color: #BEBEBE;
 }
 
 /* clearfix */

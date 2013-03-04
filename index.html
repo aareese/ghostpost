@@ -19,20 +19,24 @@
 
 <body>
     <nav>
-        <img src = "images/logo.png">
+        <a href="index.html"><img src = "images/logo.png"></a>
     </nav>
     <div class = "button">
         <div class = "new-post"><a href = ""><img src = "images/plus.png"></a></div>
     </div>
     <div class = "main">
         <div class = "avatar cf">
-            <h3><span>you are</span></h3>
+            <h3><span>today you are</span></h3>
             <img src = "images/avatar.png">
             <h1>crustyHipster3</h1>
             <h3>your avatar will refresh in <span> 5:03 hours </span></h3>
         </div>
         <div class = "list">
-            <h3 class = "list-title">Events near you</h3>
+            <ul class = "toggle">
+                <li><a href =""><h3 class = "list-title">nearby</h3></a></li>
+                <li class = "unselected"><a href =""><h3 class = "list-title">browse</h3></a></li>
+                <li class = "unselected"><a href =""><h3 class = "list-title">mine</h3></a></li>
+            </ul>
             <ul class = "event">
                 <li class = "cf"><a href ="event.html">
                     <div class = "event-title span75 fL">
