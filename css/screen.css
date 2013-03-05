@@ -99,22 +99,6 @@ nav {
     text-align: center;
 }
 
-.button{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 103;
-}
-
-
-.new-post {
-    margin: 22px 20px 0 -20px;
-    background: black;
-    padding: 5px;
-    float: right;
-    border-radius: 1em;
-}
-
 .avatar-header p {
     color: #333333;
     font-style: italic;
@@ -129,6 +113,13 @@ nav {
 }
 
 /* avatar */
+
+.avatar-large {
+    border: 1px dashed #60F7FC;
+    border-radius: 1em;
+    margin: 20px;
+    text-align: center;
+}
 
 .avatar {
     /*background: rgba(255,255,255,0.1);*/
@@ -201,6 +192,18 @@ ul.social li {
     text-align: center;
 }
 
+ul.toggle.three li {
+    width: 19%;
+}
+
+ul.toggle li.new-post {
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 5%;
+    width: 12%;
+}
+
 .sharing {
     width: 150px;
     margin-top: -6px;
@@ -229,6 +232,11 @@ h3.list-title {
     margin: 10px 0;
     color: #F2F2F2;
     text-transform: uppercase;
+}
+
+.event-title h3 {
+    text-transform: uppercase;
+    color: #60F7FC;
 }
 
 img.avatar-small {
@@ -340,13 +348,12 @@ button.large-button {
 button.large-submit {
     background: #65A0F7;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom:30px;
 }
 
 .solo {
     width: 88%;
     height: auto;
-    background: rgba(0,0,0,0.5);
     position: absolute;
     left: 0;
     right: 0;
@@ -359,6 +366,7 @@ p.postText {
     margin-right: 5%;
     font-size: 3em;
     word-wrap: break-word;
+    margin-top: 10px;
 }
 
 img.soloAvatar {
