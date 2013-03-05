@@ -83,7 +83,7 @@ span {
 }
 
 span.date {
-    color: #333333;
+    color: #6C6C6C;
     font-style: italic;
 }
 
@@ -100,7 +100,7 @@ nav {
 }
 
 .avatar-header p {
-    color: #333333;
+    color: #6C6C6C;
     font-style: italic;
     float: left;
     margin: 8px 5px 0 0;
@@ -280,7 +280,7 @@ img.avatar-tiny {
     width: 20%;
     border-radius: 0.5em;
     border: 0;
-    background: #333333;
+    background: #   ;
     height: 25px;
     padding: 5px;
     color: #BEBEBE;
