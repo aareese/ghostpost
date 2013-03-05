@@ -304,6 +304,40 @@ button.large-submit {
     margin-bottom: 100px;
 }
 
+.solo {
+    width: 50%;
+    height: auto;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+p.postText {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 3em;
+    word-wrap: break-word;
+}
+
+img.soloAvatar {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+span.soloDate {
+    margin-left: 25px;
+    font-size: 1.5em;
+    float: left;
+    display: inline-block;
+}
+
+ul.soloShare {
+    float: right;
+    display: inline-block;
+}
+
 /* clearfix */
 
 .cf:before, .cf:after { content: ""; display: table; }
