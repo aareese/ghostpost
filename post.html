@@ -17,7 +17,7 @@
 
 <style type="text/css">
     .solo {
-        width: 500px;
+        width: 50%;
         height: auto;
         background: rgba(0,0,0,0.5);
         position: absolute;
@@ -27,8 +27,8 @@
     }
 
     p.postText {
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
         font-size: 3em;
         word-wrap: break-word;
     }
@@ -41,14 +41,18 @@
     span.soloDate {
         margin-left: 25px;
         font-size: 1.5em;
+        float: left;
+        display: inline-block;
     }
 
+    ul.soloShare {
+        float: right;
+        display: inline-block;
+    }
 
 </style>
 
 </head>
-
-
 
 <body>
     <nav>
@@ -68,7 +72,7 @@
                         <p class="postText">"101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010"</p>
                         <div class="share">
                         <p><span class="date soloDate"> 4 hours ago</span><p>
-                        <ul class = "social cf">
+                        <ul class = "social cf soloShare">
                             <li><a href = ""><img src = "images/yay.png"></a></li>
                             <li><a href = ""><img src = "images/boo.png"></a></li>
                             <li><a href = ""><img src = "images/share.png"></a></li>
@@ -77,6 +81,5 @@
                 </div>
             </div>
         </div>
-
 </body>
 </html>
